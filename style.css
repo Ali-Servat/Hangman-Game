@@ -1,0 +1,84 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(
+    to right,
+    rgb(216, 83, 22),
+    rgb(202, 29, 86),
+    rgb(15, 183, 212)
+  );
+}
+.input-div {
+  display: flex;
+  justify-content: center;
+  width: fit-content;
+  margin: 20px auto;
+  padding: 20px;
+}
+.input-div label {
+  line-height: 2;
+  color: white;
+  margin-right: 10px;
+}
+.input-div input {
+  padding: 5px;
+}
+.input-div button {
+  padding: 5px;
+  margin-left: 10px;
+}
+.letters-div {
+  margin: 100px auto 0px auto;
+  display: flex;
+  justify-content: space-around;
+  width: fit-content;
+}
+.letters-div div {
+  background: linear-gradient(to top, rgb(138, 253, 134), white);
+  margin-right: 20px;
+  padding: 20px;
+  width: 60px;
+  height: 60px;
+  color: rgb(0, 179, 9);
+  text-shadow: black 1px 1px;
+  text-align: center;
+  font-size: 1.5em;
+}
+.letters-div div:last-child,
+.mistakes div:last-child {
+  margin-right: 0px;
+}
+.mistakes {
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-around;
+  width: fit-content;
+}
+.mistakes div {
+  background: linear-gradient(to top, rgb(255, 141, 141), white);
+  margin-right: 20px;
+  padding: 20px;
+  width: 60px;
+  height: 60px;
+  color: rgb(172, 0, 0);
+  text-shadow: black 1px 1px;
+  text-align: center;
+  font-size: 1.5em;
+}
+.results {
+  width: 100%;
+}
+.results .result {
+  width: fit-content;
+  margin: 10px auto;
+  font-size: 3em;
+}
+.results button {
+  display: block;
+  padding: 5px;
+  width: fit-content;
+  margin: 0px auto;
+}
